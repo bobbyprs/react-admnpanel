@@ -1,0 +1,64 @@
+.modal{
+    position:absolute !important;
+    top:50% !important;
+    left:50% !important;
+    transform: translate(-50%,-50%) !important;
+    min-width: 50%;
+}
+
+.modalButton{
+    background-color: #3F5EFB !important;
+    border:none;
+    padding: 7px 40px;
+    border-radius:100px;
+}
+
+.profile{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color:white;
+    transform: translate(-50%,-50%);
+    border-radius:20px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-width:60%;
+    display:flex;
+    flex-direction: row;
+}
+
+.profilePicture{
+    height: 230px;
+    width: 230px;
+    border-radius: 100px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    float:left;
+    word-wrap: normal;
+}
+
+.profileInfo{
+    padding:20px;
+}
+
+.profileButton,
+.profileButton:focus{
+    border:none;
+    border-radius:100%;
+    background-color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    color: #3F5EFB;
+    outline: none;
+    font-size: 1.3em;
+    font-weight: lighter;
+    position:absolute;
+    top:5%;
+    right:5%;
+
+}
+
+.profileIdentity{
+    font-size:1.3em;
+    font-weight:500;
+}
